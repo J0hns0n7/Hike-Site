@@ -1,0 +1,40 @@
+.navbar {
+    display: flex;
+    background:#333333;
+    justify-content:flex-start;
+}
+
+p {
+    margin: 10px;
+    padding:5px;
+    color:white;
+    font-family: 'Muli', sans-serif;
+    font-size: 19px;
+    display: flex;
+    align-items: center;  
+}
+/* text active and hover colors */
+a {
+    text-decoration: none;
+}
+a:link, a:visited {
+    color:white;
+}
+a:hover {
+    color:#eca419
+}
+/* icons active and hover colors */
+.fa {
+    color:#eca419;
+}
+.fa:hover {
+    color: white
+}
+
+/* logo re-size */
+.responsive {
+    height: 52x;
+    width: 52px;
+    vertical-align: baseline;
+}
+    
